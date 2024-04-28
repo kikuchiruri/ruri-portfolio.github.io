@@ -59,6 +59,11 @@ section {
     width: 90%;
     margin: 0 auto;
 }
+@media screen and (max-width: 768px) {
+ section {
+  padding: 100px 0;
+ }
+}
 /* title */
 h1 {
     width: 260px;
@@ -458,6 +463,9 @@ section.about::after {
     padding: 16px 0;
 }
 @media screen and (max-width: 720px) {
+    .menu-wrapper {
+        margin-top: 100px;
+    }
     .inner-menu {
         grid-template-columns: repeat(1, 1fr);
     }
